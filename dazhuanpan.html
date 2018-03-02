@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content="width=device-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1.0,user-scalable=0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>大转盘</title>
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/top.js"></script>
+    <script type="text/javascript" src="js/jquery.rotate.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/dazhuanpan.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+      <img src="images/bod_bg.jpg" class="warp_bg" alt="" />
+      <div class="warp">
+
+        <img src="images/zp_title.png" class="zp_tit" alt="" />
+        <img src="images/zp_bg.gif" class="zp_bg" alt="" />
+        <div class="dazp">
+            <div class="zpjp_div div_1">
+                <p>滴滴出行券</p>
+                <img src="images/3000.png" class="zpjp_div_pic2" alt="" />
+            </div>
+            <div class="zpjp_div div_2">
+                <p>滴滴出行券</p>
+                <img src="images/1000.png" class="zpjp_div_pic2" alt="" />
+            </div>
+            <div class="zpjp_div div_3">
+                <p>全国流量包兑换码</p>
+                <img src="images/100MB.png" class="zpjp_div_pic1" alt="" />
+            </div>
+            <div class="zpjp_div div_4">
+                <p>谢谢参与！</p>
+                <img src="images/thanks.png" class="zpjp_div_pic2" alt="" />
+            </div>
+            <div class="zpjp_div div_5">
+                <p>滴滴出行百元大礼包</p>
+                <img src="images/byhb.png" class="zpjp_div_pic2" alt="" />
+            </div>
+            <div class="zpjp_div div_6">
+                <p>Apple iPad mini</p>
+                <img src="images/mini.png" class="zpjp_div_pic2" alt="" />
+            </div>
+        </div>
+        <input type="button" name="name" class="zhiz" value="">
+        <img src="images/zhizhen.png" class="zhiz_img" style="display:none;" alt="" />
+        <p class="cj_jh">今天您还有<span class="cj_num">3</span>次抽奖机会</p>
+
+
+
+
+
+
+        <div class="dtdj_div">
+          <img src="images/11dtdj.png" class="dtdj_icon" alt="" />
+            <p>
+              <span class="dtdj_jp">iPad mini&nbsp;</span>5部&nbsp;&nbsp;&nbsp;
+              <span class="dtdj_jp">3000元滴滴出行券&nbsp;</span>2张
+            </p>
+            <p>
+              <span class="dtdj_jp">1000元滴滴出行券&nbsp;</span>14张&nbsp;&nbsp;&nbsp;
+              <span class="dtdj_jp">车点点洗车券&nbsp;</span>50000张
+            </p>
+        </div>
+        <p class="llb_p">
+          50000份<span class="dtdj_jp">100M流量包</span>天天有机会
+        </p>
+
+
+
+
+        <div class="zjlb_bg"></div>
+        <ul class="zjlb_ul">
+          <li class="li1">
+              <ul>
+                <li class="li2 fl"><span class="yh">176008***28</span>用户</li>
+                <li class="li2 fl">抽中<span class="jp">iPhone 7Plus 1台</span></li>
+                <li class="li2 fr"><span class="data">11/11 12:00</span></li>
+              </ul>
+          </li>
+          <li class="li1">
+              <ul>
+                <li class="li2 fl"><span class="yh">176009***28</span>用户</li>
+                <li class="li2 fl">抽中<span class="jp">滴滴3000元代金券一张</span></li>
+                <li class="li2 fr"><span class="data">11/11 12:00</span></li>
+              </ul>
+          </li>
+        </ul>
+
+
+        <div class="ym_btn my_jp">我的奖品></div>
+        <div class="ym_btn hd_gz">活动规则></div>
+
+
+        <!-- 虚拟产品中奖弹层 -->
+        <div class="tc" id="x_n" style="z-index:20;position:absolute;top:4rem;">
+            <div class="zj_tc">
+                <div class="tc_top">
+                  <img src="images/tc_sh.png" class="tc_sh" alt="" />
+                  <div class="zj_mes">
+                      <p class="zj_mes_tit">恭喜您</p>
+                      <p class="zj_jp_mes">获得10M流量包</p>
+                      <div class="dh_sm">
+                        <p class="dhm">兑换码：<span class="dhm_num">62783679889</span></p>
+                        <p class="sysm">使用说明：<span class="sysm_mes">xx使用说明使用说明使用说明使用说明使用说明使用说明使用说明使用说明使用说明使用说明</span></p>
+                      </div>
+                      </div>
+                </div>
+                <div class="tc_btn ljck">继续抽奖></div>
+                <div class="tc_btn xyyx">炫耀一下></div>
+                <img src="images/caidai.png" class="caidai" alt="" />
+            </div>
+            <img src="images/close_tc.png" class="close_tc" alt="" />
+        </div>
+
+
+        <!-- 实物产品中奖弹层 -->
+        <div class="tc" id="s_w" style="z-index:20;position:absolute;top:4rem;">
+            <div class="zj_tc" style="height:4.5rem;">
+                <div class="tc_top">
+                  <img src="images/tc_sh.png" class="tc_sh" alt="" />
+                  <div class="zj_mes">
+                      <p class="zj_mes_tit">恭喜您</p>
+                      <p class="zj_jp_mes">抽中iPhone7一台!</p>
+                      <div class="dh_sm">
+                        <p class="sw_sm">嘻嘻，最近是不是扶老奶奶过马路了，请填写联系地址和电话，工作人员将尽快邮寄给您哦~</span></p>
+                      </div>
+                      </div>
+                </div>
+                <div class="tc_btn txdz">填写地址></div>
+                <img src="images/caidai.png" class="caidai" alt="" />
+            </div>
+            <img src="images/close_tc.png" class="close_tc" alt="" />
+        </div>
+
+        <!-- 实物产品中奖弹层 -->
+        <div class="tc" id="wzj" style="z-index:20;position:absolute;top:4rem;">
+            <div class="zj_tc" style="height:3.5rem;">
+                <div class="tc_top" style="height:2.45rem;">
+                  <div class="zj_mes">
+                      <p class="zj_mes_tit">很遗憾</p>
+                      <div class="dh_sm">
+                        <p class="sw_sm">差点中奖，不要气馁，去看看其他活动吧~</span></p>
+                      </div>
+                      </div>
+                </div>
+                <div class="tc_btn kkqthd">1元1GB 流量疯抢></div>
+            </div>
+            <img src="images/close_tc.png" class="close_tc" alt="" />
+        </div>
+
+
+
+
+
+
+      </div>
+
+      <div class="mc"></div>
+
+
+
+      <script type="text/javascript">
+        $(function(){
+
+          // 中奖信息轮播部分
+            var lb_mes=$(".zjlb_ul").html();
+            $(".zjlb_ul").append(lb_mes);
+            var lb_height=$(".zjlb_ul").height();
+
+            // alert(lb_top);
+            setInterval(function(){
+              var lb_top=$(".li1").eq(0).css("margin-top");
+              lb_top=lb_top.substring(0,lb_top.length-2);
+              if(lb_top>-lb_height+1){
+                lb_top--;
+              }else{
+                lb_top=0;
+              }
+              $(".li1").eq(0).css("margin-top",""+lb_top+"px");
+            },35)
+
+
+
+
+
+
+          //下面是大转盘部分
+          var $btn = $('.zhiz');
+  				var playnum = 100; //初始次数，由后台传入
+  				$('.cj_num').html(playnum);
+  				var isture = 0;
+  				var clickfunc = function() {
+  					var data = [1, 2, 3, 4, 5, 6];
+  					//data为随机出来的结果，根据概率后的结果
+  					data = data[Math.floor(Math.random() * data.length)];
+  					switch(data) {
+  						case 1:
+  							rotateFunc(1, 0, '滴滴出行券',"x_n");
+  							break;
+  						case 2:
+  							rotateFunc(2, 60, 'Apple iPad mini',"s_w");
+  							break;
+  						case 3:
+  							rotateFunc(3, 120, '滴滴出行百元大礼包',"x_n");
+  							break;
+  						case 4:
+  							rotateFunc(4, 180, '谢谢参与!',"wzj");
+  							break;
+  						case 5:
+  							rotateFunc(5, 240, '全国流量包兑换码',"x_n");
+  							break;
+  						case 6:
+  							rotateFunc(6, 300,'滴滴出行券',"x_n");
+  							break;
+  					}
+  				}
+  				$btn.click(function() {
+            $(this).attr("disabled","disabled");
+            $(".zhiz_img").css("display","block");
+  						if(playnum <= 0) { //当抽奖次数为0的时候执行
+  							alert("没有次数了");
+  							$('.cj_num').html(0);
+  							isture = false;
+  						} else { //还有次数就执行
+  							playnum = playnum - 1; //执行转盘了则次数减1
+  							if(playnum <= 0) {
+  								playnum = 0;
+  							}
+  							$('.cj_num').html(playnum);
+  							clickfunc();
+  						}
+  				});
+  				var rotateFunc = function(awards, angle, text,tc) {
+  					isture = true;
+  					$(".dazp").stopRotate();
+  					$(".dazp").rotate({
+  						angle: 0,
+  						duration: 10000, //旋转时间
+  						animateTo: angle + 3600, //让它根据得出来的结果加上3600度旋转
+  						callback: function() {
+  							isture = false; // 标志为 执行完毕
+                $(".zhiz").removeAttr("disabled");
+                $(".zhiz_img").css("display","none");
+                var height1=$(document).height();
+                var height2=$(window).height();
+                var scroll_h=$(window).scrollTop();
+                var tc_h=$("#"+tc+"").height();
+                var tc_top=(height2-tc_h)/2+scroll_h;
+
+                $(".zj_jp_mes").text(text);
+                $("#"+tc+"").css("top",tc_top+"px").show();
+                $(".mc").height(height1).show();
+                $(".caidai").show().animate({
+                  "top":"-0.2rem",
+                  "left":"-0.2rem",
+                  "width":"4.4rem",
+                  "opacity":"0"
+                },2000)
+  						}
+
+  					});
+  				};
+          $(".close_tc").click(function(){
+            $(".tc").hide();
+            $(".mc").hide();
+            $(".caidai").hide().css({"top":"3.5rem","left":"1.92rem","width":"0.2rem","opacity":"1"});
+          })
+        })
+      </script>
+  </body>
+</html>

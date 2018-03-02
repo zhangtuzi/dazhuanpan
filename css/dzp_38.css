@@ -1,0 +1,77 @@
+body{
+	width: 100%;
+	background: #feb5c6;
+}
+.bj_div{
+	width:100%;
+	overflow: hidden;
+}
+.bj_div img{
+	width:100%;
+}
+.zt_body{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	overflow: auto;
+}
+
+.zt_tou{
+	width: 5.8rem;
+	height: 0.88rem;
+	line-height: 0.88rem;
+   text-align: center;
+   font-size: 0.34rem;
+   color: #ec3458;
+   margin: 0.5rem auto 0;
+}
+.zt_tou div{
+	float:left;
+	text-align: center;
+	font-weight: bold;
+}
+.hx_left,.hx_right{
+	margin-top:0.43rem;
+	width:1.9rem;
+	height:1px;
+	background:#ec3458;
+}
+.hdgz_titl{
+	width:2rem;
+}
+.zt_tou p{
+	line-height: 5;
+	width: 35%;
+	margin: 0 auto;
+}
+.dd_ziti{
+	width: 5.8rem;
+	font-size: 0.24rem;
+	margin: 0.6rem auto;
+}
+.rulestyle{
+	overflow: hidden;
+	padding-left: 0.1rem;
+}
+.rulestyle dt{
+	color: #ec3458;
+font-size: 0.24rem;
+/*background: #eb6100;*/
+height: 0.3rem;
+line-height: 0.3rem;
+width: 0.3rem;
+border-radius: 50%;
+float: left;
+margin-right: 0.1rem;
+margin-top: 0.1rem;
+text-align: center;
+}
+.rulestyle dd{
+	font-size: 0.24rem;
+color: #ec3458;
+float: left;
+text-align: left;
+width: 92%;
+line-height: 2;
+}

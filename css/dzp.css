@@ -1,0 +1,51 @@
+body{
+	width: 100%;
+background:#5C3645;
+}
+
+.zt_tou{
+	width: 95%;
+	height: 0.88rem;
+	border-bottom: 1px solid #CCCCCC;
+   text-align: center;
+   font-size: 0.34rem;
+   color: #FFFFFF;
+   margin: 0 auto;
+   
+}
+.zt_tou p{
+	background: #5c3645;
+	line-height: 5;
+	width: 35%;
+	margin: 0 auto;
+}
+.dd_ziti{
+	width: 5.8rem;
+	font-size: 0.24rem;
+	margin-top: 0.6rem;
+}
+.rulestyle{
+	overflow: hidden;
+	padding-left: 0.1rem;
+}
+.rulestyle dt{
+	color: #fff;
+font-size: 0.24rem;
+/*background: #eb6100;*/
+height: 0.3rem;
+line-height: 0.3rem;
+width: 0.3rem;
+border-radius: 50%;
+float: left;
+margin-right: 0.1rem;
+margin-top: 0.1rem;
+text-align: center;
+}
+.rulestyle dd{
+	font-size: 0.24rem;
+color: #FFFFFF;
+float: left;
+text-align: left;
+width: 92%;
+line-height: 2;
+}

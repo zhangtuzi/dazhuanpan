@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content="width=device-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1.0,user-scalable=0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>报错页面</title>
+    <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/top.js"></script>
+    <script type="text/javascript" src="js/jquery.rotate.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/dazhuanpan.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+      <img src="images/error_bg.jpg" class="warp_bg" alt="" />
+      <div class="warp">
+          <img src="images/error_icon.png" class="error_icon" alt="" />
+          <p class="error_mes">
+            亲，出了点小问题，程序猿正在拼命解决....您的抽奖机会会保存，还能接着用哦~请在“中奖信息”页面查看。
+          </p>
+
+          <p class="error_mes">
+            您可以点击<a href="##">“中奖信息查询”</a>查看奖品详情
+          </p>
+      </div>
+      <script type="text/javascript">
+        $(function(){
+          var win_height=$(window).height();
+          $(".warp_bg").height(win_height);
+        })
+      </script>
+  </body>
+
+</html>
